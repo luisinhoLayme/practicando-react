@@ -11,4 +11,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </BrowserRouter>
 )
 
-//HACK: you are at video not started, of the folder 11.Profundizando Hooks- useContext
