@@ -4,3 +4,5 @@ base-project
 03-app-counter/node_modules
 04-gif-expert-app/node_modules
 05-hook-app/node_modules
+06-heroes-app/node_modules
+06-heroes-app/public/heroes
