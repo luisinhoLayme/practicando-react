@@ -6,3 +6,4 @@ base-project
 05-hook-app/node_modules
 06-heroes-app/node_modules
 06-heroes-app/public/heroes
+07-journal-app/node_modules
