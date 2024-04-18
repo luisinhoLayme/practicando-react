@@ -1,7 +1,6 @@
-import { findDOMNode } from "react-dom"
 import { loginWithEmailPassword, logoutFirebase, registerUserWithEmailPassword, signInWithGoogle } from "../../firebase/providers"
-import { checkingCredential, login, logout } from "./authSlice"
 import { clearNotesLogout } from "../journal"
+import { checkingCredential, login, logout } from "./authSlice"
 
 export const checkingAuthentication = (email, password) => {
   return async (dispatch) => {

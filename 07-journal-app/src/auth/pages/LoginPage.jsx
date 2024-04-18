@@ -1,15 +1,15 @@
+import clsx from 'clsx'
+import { useMemo } from 'react'
+import { CiCircleAlert } from 'react-icons/ci'
 import { FaGoogle } from 'react-icons/fa'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { AuthLayout } from '../layout/AuthLayout'
 import { useForm } from '../../hooks'
 import {
   startGoogleSignIn,
   startLoginWithEmailPassword,
 } from '../../store/auth'
-import { useDispatch, useSelector } from 'react-redux'
-import { useMemo } from 'react'
-import clsx from 'clsx'
-import { CiCircleAlert } from 'react-icons/ci'
+import { AuthLayout } from '../layout/AuthLayout'
 
 const formData = {
   email: '',
