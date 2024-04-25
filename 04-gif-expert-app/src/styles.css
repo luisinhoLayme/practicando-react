@@ -1,0 +1,12 @@
+
+* {
+  color-scheme: dark light;
+}
+
+#app {
+  display: flex;
+}
+
+.span {
+  display: none;
+}

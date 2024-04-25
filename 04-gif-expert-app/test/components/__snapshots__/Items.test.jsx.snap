@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Items.jsx /> debe de hacer el snapshot del componente 1`] = `
+<div>
+  <div>
+    <strong>
+      Luisinho
+    </strong>
+    <img
+      alt="Luisinho"
+      src="https://luisinho.dev/luisinho.jpg"
+    />
+  </div>
+</div>
+`;
